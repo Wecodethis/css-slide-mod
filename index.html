@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>CSS3 Responsive Slider</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="container-narrow">
+        <h1>
+          CSS3 Slider <span>NEW <small>v 1.1</small></span>
+        </h1>
+      </div>
+
+      <input checked="checked" name="view" id="desktop" type="radio" />
+      <input name="view" id="tablet" type="radio" />
+      <input name="view" id="mobile" type="radio" />
+      <input name="view" id="fullwidth" type="radio" />
+
+      <div id="wrapper">
+        <header>
+          <div class="container-narrow views">
+            <ul>
+              <li>
+                <label class="desktop active" for="desktop">Desktop</label>
+              </li>
+              <li><label class="tablet" for="tablet">Tablet</label></li>
+              <li><label class="mobile" for="mobile">Mobile</label></li>
+              <li class="last">
+                <label class="fullwidth" for="fullwidth"
+                  >Full Width<em>NEW</em></label
+                >
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <input checked="checked" name="wrapper" id="slide1" type="radio" />
+        <input name="wrapper" id="slide2" type="radio" />
+        <input name="wrapper" id="slide3" type="radio" />
+        <input name="wrapper" id="slide4" type="radio" />
+        <input name="wrapper" id="slide5" type="radio" />
+
+        <div id="reveslides">
+          <div id="hide">
+            <div class="animation">
+              <div class="slide">
+                <img
+                  src="https://previews.customer.envatousercontent.com/files/78168183/images/slide-1.jpg"
+                />
+                <div class="tooltip"><h1>Antique Photography</h1></div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://previews.customer.envatousercontent.com/files/78168183/images/slide-2.jpg"
+                />
+                <div class="tooltip"><h1>Sea Overbridge</h1></div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://previews.customer.envatousercontent.com/files/78168183/images/slide-3.jpg"
+                />
+                <div class="tooltip"><h1>Green Patal</h1></div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://previews.customer.envatousercontent.com/files/78168183/images/slide-4.jpg"
+                />
+                <div class="tooltip"><h1>Cuba Flower</h1></div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://previews.customer.envatousercontent.com/files/78168183/images/slide-5.jpg"
+                />
+                <div class="tooltip"><h1>Ackab Bird</h1></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+        </div>
+
+        <div id="active">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
